@@ -1,11 +1,24 @@
+:root {
+    --cdi-ink-color:#282D3C;
+    --cdi-score-color:#798EA4;
+    /* --cdi-score-color:#6B5876; */
+    --cdi-secondary-color:#EDF1FE;
+    --cdi-percentage-color:#19558F;
+    --cdi-category-color:#0F4C81;
+    --cdi-background-color:#fafafa;
+    --cdi-title-color:#DFE3E6;
+    --cdi-title-ink:#282D3C;
+    --cdi-border-color:#DFE3E6;
+}
+
 body{
     padding:0;
     margin:0;
-    color: var(--lyrics-analysis-ink-color);
+    color: var(--cdi-ink-color);
     font-family: 'Roboto', sans-serif;
     /* font-family: 'IBM Plex Sans', sans-serif; */
-    background: #fafafa;
-    color: #282D3C;
+    background:var(--cdi-background-color);
+    color:var(--cdi-ink-color);
 }
 
 .container{
@@ -90,7 +103,7 @@ body{
 
 .session{
     font-size: 11px;
-    border:1px solid #DFE3E6;
+    border:1px solid var(--cdi-border-color);
     margin-bottom: 30px;
     /* padding:10px; */
     background: white;
@@ -98,31 +111,32 @@ body{
 }
 
 .title{
-    order-bottom: 1px solid #DFE3E6;
+    border-bottom: 1px solid var(--cdi-border-color);
     padding: 10px;
     font-weight: bold;
     height: 20px;
     max-height: 20px;
     display: flex;
     align-items: center;
-    /* color: #0F4C81; */
-    background: #DFE3E6;
+    color: var(--cdi-title-ink);
+    background:var(--cdi-title-color);
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
 
 .presenter{
-    border-bottom:1px solid #DFE3E6;
+    border-bottom: 1px solid var(--cdi-border-color);
     padding:10px;
     height:20px;
     max-height: 20px;
     display: flex;
     align-items: center;
     color:#0F4C81;
+    font-weight: bold;
 }
 
 .abstract{
-    border-bottom:1px solid #DFE3E6;
+    border-bottom: 1px solid var(--cdi-border-color);
     padding:10px;
     height:140px;
     max-height: 140px;
@@ -193,16 +207,16 @@ body{
 
 .labone{
     font-size: 11px;
-    border: 1px solid #DFE3E6;
+    border: 1px solid var(--cdi-border-color);
     margin-bottom: 30px;
     /* padding: 10px; */
     background: white;
     border-radius: 4px;
-    height: 596px;
+    height: 598px;
 }
 
 .abstractone{
-    border-bottom:1px solid #DFE3E6;
+    border-bottom: 1px solid var(--cdi-border-color);
     padding:10px;
     line-height: 18px;
     height:454px;
