@@ -114,14 +114,16 @@ body{
     border-bottom: 1px solid var(--cdi-border-color);
     padding: 10px;
     font-weight: bold;
-    height: 20px;
-    max-height: 20px;
+    height: 30px;
+    max-height: 30px;
     display: flex;
     align-items: center;
     color: var(--cdi-title-ink);
-    background:var(--cdi-title-color);
+    background: var(--cdi-title-color);
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+    line-height: 18px;
+    font-size: 11px;;
 }
 
 .presenter{
@@ -138,8 +140,8 @@ body{
 .abstract{
     border-bottom: 1px solid var(--cdi-border-color);
     padding:10px;
-    height:140px;
-    max-height: 140px;
+    height:130px;
+    max-height: 130px;
     line-height: 18px;
 }
 
@@ -219,5 +221,5 @@ body{
     border-bottom: 1px solid var(--cdi-border-color);
     padding:10px;
     line-height: 18px;
-    height:454px;
+    height:444px;
 }
