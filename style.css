@@ -46,14 +46,19 @@ body{
 .header{
     display: flex;
     flex-direction: row;
-    height: 60px;
+    height: 40px;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 13px;
     margin-top: 20px;
-    color:#0F4C81;
+    color: #0F4C81;
+    background: white;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px dotted var(--cdi-title-color);
+    border-radius: 4px;
 }
 
 .streams{
@@ -71,10 +76,11 @@ body{
 
 .slot{
     font-size: 14px;
-    height:285px;
+    height: 285px;
     min-height: 285px;
     margin-bottom: 30px;
     font-weight: bold;
+    margin-left: 10px;
 }
 
 .apps{
@@ -222,4 +228,14 @@ body{
     padding:10px;
     line-height: 18px;
     height:444px;
+}
+
+.icp{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    margin-top: 30px;
+    align-items: center;
+    color: var(--cdi-category-color);
+    color: #CD212A;
 }
