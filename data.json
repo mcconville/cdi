@@ -20,7 +20,6 @@
         "abstract": "This presentation will cover the internal architecture of an operator, and go over some tools that can be used to quickly stand up an operator.",
         "related": ["Kubernetes", "OperatorHub"]
     }, {
-
         "title": "Learn to build your own Helm Charts",
         "presenter": "Mofizur Rahman",
         "abstract": "In this session we will go over how you can use helm to install kubernetes application as well as create your own helm chart for you application.",
@@ -31,7 +30,7 @@
         "abstract": "In this workshop you'll learn what it means to easily build a cloud-native, asynchronous, reactive application through the Eclipse MicroProfile reactive APIs and Apache Kafka.",
         "related": ["Java", "Kafka"]
     }, {
-        "title": "Supercharging the Developer Experience with an enriched API Hub from IBM",
+        "title": "Supercharging the Dev Experience with an enriched API Hub from IBM",
         "presenter": "Paul J Gordon",
         "abstract": "",
         "related": ["API Hub"]

@@ -152,13 +152,13 @@ body{
 }
 
 .related{
-    padding-top:10px;
-    padding-bottom:10px;
-    padding-left:10px;
-    height:20px;
-    max-height: 20px;
+    padding-left: 10px;
+    height: 40px;
+    max-height: 40px;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .docker,
@@ -238,4 +238,53 @@ body{
     align-items: center;
     color: var(--cdi-category-color);
     color: #CD212A;
+}
+
+.relateditems{
+    width:90%;
+}
+
+.sessionnumber{
+    display: flex;
+    justify-self: flex-end;
+    align-content: flex-end;
+    align-self: flex-end;
+    display: flex;
+    justify-self: flex-end;
+    align-content: flex-end;
+    align-self: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.tags{
+    display: flex;
+    flex-direction: row;
+}
+
+.sessionlabel{
+    font-size: 10px;
+    color:var(--cdi-border-color);
+    font-weight: normal;
+    height:16px;
+    margin-top:1px;
+    margin-bottom: 5px;
+}
+
+.sessionid{
+    height: 24px;
+}
+
+.count{
+    width: 40px;
+    border-left: solid 1px var(--cdi-border-color);
+    height: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    /* height:26px; */
 }
