@@ -76,8 +76,8 @@ body{
 
 .slot{
     font-size: 14px;
-    height: 285px;
-    min-height: 285px;
+    height: 355px;
+    min-height: 355px;
     margin-bottom: 30px;
     font-weight: bold;
     margin-left: 10px;
@@ -146,8 +146,8 @@ body{
 .abstract{
     border-bottom: 1px solid var(--cdi-border-color);
     padding:10px;
-    height:130px;
-    max-height: 130px;
+    height:200px;
+    max-height: 200px;
     line-height: 18px;
 }
 
@@ -220,14 +220,14 @@ body{
     /* padding: 10px; */
     background: white;
     border-radius: 4px;
-    height: 598px;
+    height: 738px;
 }
 
 .abstractone{
     border-bottom: 1px solid var(--cdi-border-color);
     padding:10px;
     line-height: 18px;
-    height:444px;
+    height:584px;
 }
 
 .icp{
@@ -236,8 +236,10 @@ body{
     height: 20px;
     margin-top: 30px;
     align-items: center;
-    color: var(--cdi-category-color);
-    color: #CD212A;
+    color: #6B5876;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .relateditems{

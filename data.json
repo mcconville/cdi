@@ -1,9 +1,14 @@
 {
     "apps": [{
-        "title": "OpenShift Everywhere",
-        "presenter": "Max Shapiro",
-        "abstract": "Learn how to use and interact with Openshift as a developer. In this session, we will compare and deploy the Bee Travels application to Openshift on IBM Cloud and on other Clouds.",
-        "related": ["OpenShift"]
+        "title": "Modern Development — How Containers are Changing Everything",
+        "presenter": "Steve poole",
+        "abstract": "This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning.",
+        "related": ["kubernetes", "java"]
+    },{
+        "title": "Turn a Kubernetes deployment into a Knative service",
+        "presenter": "Tara Gu",
+        "abstract": "By showing how to turn an existing Kubernetes deployment into a Knative service. this presentation shows how much easier it is to create a Knative service versus a Kubernetes deployment. ",
+        "related": ["kubernetes", "knative"]
     }, {
         "title": "Quarkus - Supersonic Subatomic Java",
         "presenter": "Anamarija Talijanac",
@@ -20,25 +25,15 @@
         "abstract": "This presentation will cover the internal architecture of an operator, and go over some tools that can be used to quickly stand up an operator.",
         "related": ["Kubernetes", "OperatorHub"]
     }, {
-        "title": "Learn to build your own Helm Charts",
+        "title": "Managing Kubernetes with Istio",
         "presenter": "Mofizur Rahman",
-        "abstract": "In this session we will go over how you can use helm to install kubernetes application as well as create your own helm chart for you application.",
+        "abstract": "Microservices and containers changed application design and deployment patterns, but along with them brought challenges like service discovery, routing, failure handling, security and visibility to microservices. In this talk we will see how istio can be used to manage traffic, gather metrics and enforce policies in a demo application running microservices. We will learn why kubernetes need “service mesh” and how does Istio improve managing Kubernetes workload.",
         "related": ["Openshift"]
     }, {
         "title": "Building reactive java applications ready for an event-centric world",
         "presenter": "Grace Jansen",
         "abstract": "In this workshop you'll learn what it means to easily build a cloud-native, asynchronous, reactive application through the Eclipse MicroProfile reactive APIs and Apache Kafka.",
         "related": ["Java", "Kafka"]
-    }, {
-        "title": "Supercharging the Dev Experience with an enriched API Hub from IBM",
-        "presenter": "Paul J Gordon",
-        "abstract": "",
-        "related": ["API Hub"]
-    }, {
-        "title": "Microservices for Beginners",
-        "presenter": "Niklas Heidloff",
-        "abstract": "For this session, we use our example code cloud-native-starter, which we have released on GitHub as open source, along with scripts for fast deployments to Minikube and lots of instructions and information.",
-        "related": ["kubernetes", "java"]
     }, {
         "title": "Modern Web Apps with Rust, Node, and OpenShift",
         "presenter": "Josh Hannaford",
@@ -54,6 +49,11 @@
         "presenter": "Sharon Wang & Igor Braga",
         "abstract": "Rapid creation of a Java based microservice architecture for a mobile app. Includes some early thinking about privacy by design.",
         "related": ["openshift", "tekton" ]
+    },{
+        "title": "Microservices made easy with MicroProfile, OpenJ9, Open Liberty and OpenShift",
+        "presenter": "Jamie Coleman",
+        "abstract": "Microservices, microservices, microservices! When you start planning a microservice project there are many more things that need to be considered that simply was not required when creating monoliths. This talk will talk you through a truly open source, cloud-native stack starting at the bottom with OpenShift, then onto the JVM with OpenJ9, Open Liberty as the cloud-native application server then finally MicroProfile as the Java spec for microservices.",
+        "related": ["Openshift"]
     }],
     "ops": [{
         "title": "Docker containers for Front-End development runtimes.",
@@ -61,12 +61,12 @@
         "abstract": "Run different langauges for different versions of applications, have this automated and fully scripted, with a web-based dashboard for all your dev environments.",
         "related": ["Docker", "Node"]
     }, {
-        "title": "Turn a Kubernetes deployment into a Knative service",
-        "presenter": "Tara Gu",
-        "abstract": "By showing how to turn an existing Kubernetes deployment into a Knative service. this presentation shows how much easier it is to create a Knative service versus a Kubernetes deployment. ",
-        "related": ["kubernetes", "knative"]
+        "title": "Using Openshift on Different Clouds",
+        "presenter": "Max Shapiro",
+        "abstract": "Learn how to use and interact with Openshift as a developer. In this session, we will compare and deploy the Bee Travels application to Openshift on IBM Cloud and on other Clouds.",
+        "related": ["OpenShift"]
     }, {
-        "title": "Streamline software deploys with Red Hat Marketplace",
+        "title": "Developer experience with Red Hat Marketplace",
         "presenter": "Rojan Jose",
         "abstract": "Red Hat Marketplace is an open cloud marketplace that makes it easier to discover and access certified software for container-based environments in public clouds and on-prem.",
         "related": ["Red Hat Marketplace"]
@@ -91,24 +91,24 @@
         "abstract": "Engineering teams can gain the flexibility to run their applications where it makes sense, for example low latency access to on-prem systems, local data processing, or local data storage. With this offering, you get to focus on app development, not platform differences.",
         "related": ["Cloud Satellite"]
     }, {
-        "title": "The Community Behind the Meteoric Rise of the Kubernetes Project",
-        "presenter": "Sahdev P. Zala",
-        "abstract": "In this talk, I will provide an insight of the Kubernetes community, it’s amazing culture, structure and values. While mesmerizing with interesting facts, you will also learn how to get involved and become part of this amazing community, and how to climb the contributor ladder.",
-        "related": ["kubernetes"]
+        "title": "Code Engine - One platform to rule them all",
+        "presenter": "Doug Davis",
+        "abstract": "With Code Engine you can deploy a wide variety of runtime artifacts: 12-factor and serverless apps, batch jobs and more. All within one easy to use environment, with the most popular runtime options you'd expect, such as self-managed networking with built-in security and auto-scaling, even down to zero. In this session you'll get a quick overview of the product and a demo showcasing just how easy managing your applications is supposed to be.",
+        "related": ["knative"]
     }, {
-        "title": "Cloud Native Application Monitoring Tools",
-        "presenter": "Max Shapiro",
-        "abstract": "Learn the best practices for a cloud native application development life cycle. In this session, attendees will learn about what the Bee Travels project is, how it works, and the life cycle of Bee Travels from coding to deploying the application.",
+        "title": "Istio Secure",
+        "presenter": "Lee Zhang",
+        "abstract": "You learn how to secure your application and microservices without modifying your code in this session. You learn how Istio security can improve security for your application - Security by default: no changes needed to application code and infrastructure - Defense in depth: integrate with existing security systems to provide multiple layers of defense - Zero-trust network: build security solutions on distrusted networks",
         "related": ["OpenShift"]
     }, {
-        "title": "",
-        "presenter": "",
-        "abstract": "",
-        "related": []
+        "title": "Build Accessible Applications with the Equal Access Toolkit",
+        "presenter": "Anam Mahmood",
+        "abstract": "Through the Equal Access Toolkit, we would like to raise awareness about making websites and applications more accessible and that accessibility is about inclusion, considering everyone whether people with disabilities, different ages, people using mobile devices, or users with slow network connections. With IBM Equal Access Toolkit we can make our software products accessible by including accessibility directly into our workflow as developers and help improve peoples’ lives.",
+        "related": ["Openshift"]
     }, {
-        "title": "",
-        "presenter": "",
-        "abstract": "",
+        "title": "Continuous Integration meets Application Integration!",
+        "presenter": "Andy Garratt",
+        "abstract": "Many CI/CD practices are well known - but how do they apply when 'Integration' itself is the primary deliverable? Come and join our guided tour to show you where the challenges are, how to overcome them with proven good practices and show that it really works in a live demo with APIs, Queues, Mediations, Connectors, Databases and more!",
         "related": []
     }]
 }
