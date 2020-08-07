@@ -1,7 +1,7 @@
 {
     "apps": [{
         "title": "Modern Development — How Containers are Changing Everything",
-        "presenter": "Steve poole",
+        "presenter": "Steve Poole",
         "abstract": "This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning.",
         "related": ["kubernetes", "java"]
     },{
