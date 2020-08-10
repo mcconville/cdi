@@ -3,37 +3,72 @@
         "title": "Modern Development — How Containers are Changing Everything",
         "presenter": "Steve Poole",
         "abstract": "This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning.",
-        "related": ["kubernetes", "java"]
+        "related": ["kubernetes", "java"],
+        "twitter":"@spoole167",
+        "github":"",
+        "photo":"https://pbs.twimg.com/profile_images/1584838643/StevePoole_400x400.png",
+        "description":"The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
+        "topic":"Modern App Development"
     },{
         "title": "Quarkus - Supersonic Subatomic Java",
         "presenter": "Anamarija Talijanac",
         "abstract": "Dive into the next generation cloud native framework for running Java in microservice oriented cloud platforms.",
-        "related": ["OpenShift", "Java", "Serverless"]
+        "related": ["OpenShift", "Java", "Serverless"],
+        "twitter":"@spoole167",
+        "github":"",
+        "photo":"https://pbs.twimg.com/profile_images/1584838643/StevePoole_400x400.png",
+        "description":"The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
+        "topic":"Modern App Development"
     },{
         "title": "Microservices made easy with MicroProfile, OpenJ9, Open Liberty and OpenShift",
         "presenter": "Jamie Coleman",
         "abstract": "Microservices, microservices, microservices! When you start planning a microservice project there are many more things that need to be considered that simply was not required when creating monoliths. This talk will talk you through a truly open source, cloud-native stack starting at the bottom with OpenShift, then onto the JVM with OpenJ9, Open Liberty as the cloud-native application server then finally MicroProfile as the Java spec for microservices.",
-        "related": ["Openshift"]
+        "related": ["Openshift"],
+        "twitter":"@spoole167",
+        "github":"",
+        "photo":"https://pbs.twimg.com/profile_images/1584838643/StevePoole_400x400.png",
+        "description":"The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
+        "topic":"Modern App Development"
     },{
         "title": "Introduction to Kubernetes Operators",
         "presenter": "Jonathan Berkhahn",
         "abstract": "This presentation will cover the internal architecture of an operator, and go over some tools that can be used to quickly stand up an operator.",
-        "related": ["Kubernetes", "OperatorHub"]
+        "related": ["Kubernetes", "OperatorHub"],
+        "twitter":"@spoole167",
+        "github":"",
+        "photo":"https://pbs.twimg.com/profile_images/1584838643/StevePoole_400x400.png",
+        "description":"The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
+        "topic":"Modern App Development"
     },{
         "title": "Turn a Kubernetes deployment into a Knative service",
         "presenter": "Tara Gu",
         "abstract": "By showing how to turn an existing Kubernetes deployment into a Knative service. this presentation shows how much easier it is to create a Knative service versus a Kubernetes deployment. ",
-        "related": ["kubernetes", "knative"]
+        "related": ["kubernetes", "knative"],
+        "twitter":"@spoole167",
+        "github":"",
+        "photo":"https://pbs.twimg.com/profile_images/1584838643/StevePoole_400x400.png",
+        "description":"The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
+        "topic":"Modern App Development"
     }, {
         "title": "Digital Transformation of Legacy Applications",
         "presenter": "Kenishia Callaway",
         "abstract": "As the world marches towards the use of open systems and open source as the models for integration, see how IBM Z can remain in lock step. See a demo on how a Node.js healthcare application created for millennials by millennials is integrating with CICS and Db2 on the mainframe without the need for legacy skills.",
-        "related": ["OpenShift", "Z"]
+        "related": ["OpenShift", "Z"],
+        "twitter":"@spoole167",
+        "github":"",
+        "photo":"https://pbs.twimg.com/profile_images/1584838643/StevePoole_400x400.png",
+        "description":"The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
+        "topic":"Modern App Development"
     }, {
         "title": "Managing Kubernetes with Istio",
         "presenter": "Mofizur Rahman",
         "abstract": "Microservices and containers changed application design and deployment patterns, but along with them brought challenges like service discovery, routing, failure handling, security and visibility to microservices. In this talk we will see how istio can be used to manage traffic, gather metrics and enforce policies in a demo application running microservices. We will learn why kubernetes need “service mesh” and how does Istio improve managing Kubernetes workload.",
-        "related": ["Openshift"]
+        "related": ["Openshift"],
+        "twitter":"@spoole167",
+        "github":"",
+        "photo":"https://pbs.twimg.com/profile_images/1584838643/StevePoole_400x400.png",
+        "description":"The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
+        "topic":"Modern App Development"
     }, {
         "title": "Building reactive java applications ready for an event-centric world",
         "presenter": "Grace Jansen",
@@ -81,7 +116,7 @@
         "abstract": "This talk will give an intorduction on various ways of extending Kubernetes scheduler, to ensure end-users' diverse workloads can fit on the same platform, so as to achieve high cluster utilization and application high availability.",
         "related": ["kubernetes"]
     }, {
-        "title": "Lessons learned on running Jenkins in openshift",
+        "title": "Lessons learned on running Jenkins in Openshift",
         "presenter": "Michele Buccarello",
         "abstract": "In this talk I will share what I learned about Jenkins in Openshift. The session will end with a summary about the best practice I followed and the problems I faced and how we solved.",
         "related": ["openshift"]
@@ -96,10 +131,10 @@
         "abstract": "With Code Engine you can deploy a wide variety of runtime artifacts: 12-factor and serverless apps, batch jobs and more. All within one easy to use environment, with the most popular runtime options you'd expect, such as self-managed networking with built-in security and auto-scaling, even down to zero. In this session you'll get a quick overview of the product and a demo showcasing just how easy managing your applications is supposed to be.",
         "related": ["knative"]
     }, {
-        "title": "Istio Secure",
-        "presenter": "Lee Zhang",
-        "abstract": "You learn how to secure your application and microservices without modifying your code in this session. You learn how Istio security can improve security for your application - Security by default: no changes needed to application code and infrastructure - Defense in depth: integrate with existing security systems to provide multiple layers of defense - Zero-trust network: build security solutions on distrusted networks",
-        "related": ["OpenShift"]
+        "title": "The resurgence of event driven architecture",
+        "presenter": "Kim Clark",
+        "abstract": " It is clear that RESTful APIs are not the only game in town for component interactions, but the interplay between APIs and events is subtle. We’ll explore the most common patterns in use today, their pros and cons, and consider what role events are likely to play in enterprise architecture in the future.",
+        "related": ["Modern App Development"]
     }, {
         "title": "Build Accessible Applications with the Equal Access Toolkit",
         "presenter": "Anam Mahmood",
