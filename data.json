@@ -149,9 +149,9 @@
         "photo": "",
         "description": "Do you want to simultaneously run Ruby + Jekyll, instances of different versions of NodeJs for different applications, have this automated and fully scripted, with a web-based dashboard for all your development environments, all on your humble Mac? Will also cover brief summary of Docker and Virtualisation, as well how I use it specifically for creating and managing Front-End development environments.",
         "topic": "Runtimes",
-        "bio": [],
+        "bio": ["Creative Technologist"],
         "submission": 10,
-        "email":""
+        "email": ""
     }, {
         "title": "Using Openshift on Different Clouds",
         "presenter": "Max Shapiro",
@@ -170,99 +170,116 @@
         "presenter": "Rojan Jose",
         "abstract": "Red Hat Marketplace is an open cloud marketplace that makes it easier to discover and access certified software for container-based environments in public clouds and on-prem.",
         "related": ["Red Hat Marketplace"],
-        "twitter": "",
-        "github": "",
+        "twitter": "@rojanjose",
+        "github": "https://github.com/rojanjose",
         "photo": "",
-        "description": "",
-        "topic": "",
-        "bio": []
+        "description": "This session walks you through the steps of setting up Red Hat Marketplace on a developer workstation using CodeReady Container and an OpenShift cluster on cloud. Learn how to try software from the Marketplace catalog and integrate it with your application.",
+        "topic": "OpenShift & Kubernetes",
+        "bio": ["Rojan Jose is a Developer Advocate from Raleigh, NC with several years of experience in enterprise software development. Over the years he has assumed several roles such as Software Developer, Technical Lead and Solution Architect. He currently helps developers build software applications using IBM Cloud and open source technologies."],
+        "submission": 31,
+        "email": "rojan@us.ibm.com"
     }, {
         "title": "Cloud Native CD Pipelines with Tekton",
         "presenter": "Andrea Frittoli",
         "abstract": "We will present how Tekton pipelines, combined with triggers and cloud events, are used to implement the CD pipelines that build, release and deploy Tekton itself.",
         "related": ["tekton"],
-        "twitter": "",
-        "github": "",
+        "twitter": "@blackchip76",
+        "github": "afrittoli",
         "photo": "",
-        "description": "",
+        "description": "Tekton is an open-source project for cloud-native CI/CD. It provides lightweight, reusable, cloud-native building blocks (such as Tasks) that can be curated to embody best practices. Tekton, hosted by the CD Foundation, aspires to be the common denominator in CI/CD. But what to do with the building blocks, how to get started? We will present how Tekton pipelines, combined with triggers and cloud events, are used to implement the CD pipelines that build, release and deploy Tekton itself.",
         "topic": "",
-        "bio": []
+        "bio": ["Andrea Frittoli is a developer advocate at IBM and an open source enthusiast. He is a maintainer of the Tekton project and a member of its governance team. Before Tekton, Andrea has contributed to OpenStack for several years. He’s a strong advocate for transparency in open source. Andrea has previously been a speaker at KubeCon, FOSDEM, FOSSASIA, FOSS Backstage, OpenStack summits, Open Source Summits, Devoxx Days and various meetups."],
+        "submission": 51,
+        "email": "andrea.frittoli@uk.ibm.com"
     }, {
         "title": "Extending Kubernetes Scheduler - Everything You Need to Know",
         "presenter": "Huang-Wei",
         "abstract": "This talk will give an intorduction on various ways of extending Kubernetes scheduler, to ensure end-users' diverse workloads can fit on the same platform, so as to achieve high cluster utilization and application high availability.",
         "related": ["kubernetes"],
         "twitter": "",
-        "github": "",
+        "github": "Huang-Wei",
         "photo": "",
-        "description": "",
-        "topic": "",
-        "bio": []
+        "description": "This talk will give an intorduction on various ways of extending Kubernetes scheduler, to ensure end-users' diverse workloads can fit on the same platform, so as to achieve high cluster utilization and application high availability.",
+        "topic": "OpenShift & Kubernetes",
+        "bio": ["Wei Huang is a senior software engineer from IBM. He has 10+ years of experiences around database, data warehouse tooling, cloud, container, monitoring and devops. His latest focus is on Kubernetes, including extending Kubernetes LoadBalancer using CRD, networking, scheduling and monitoring. Currently, he is the co-lead of Kubernetes SIG-Scheduling."],
+        "submission": 21,
+        "email": "wei.huang1@ibm.com"
     }, {
-        "title": "Lessons learned on running Jenkins in Openshift",
+        "title": "Lessons learned on running Jenkins in OpenShift",
         "presenter": "Michele Buccarello",
         "abstract": "In this talk I will share what I learned about Jenkins in Openshift. The session will end with a summary about the best practice I followed and the problems I faced and how we solved.",
         "related": ["openshift"],
-        "twitter": "",
-        "github": "",
+        "twitter": "@buccarellom",
+        "github": "mbuccarello",
         "photo": "",
-        "description": "",
+        "description": "In this talk I will share what I learned about Jenkins in Openshift. The session will end with a summary about the best practice I followed and the problems I faced and how we solved.",
         "topic": "",
-        "bio": []
+        "bio": ["Michele Buccarello Enterprise Kubernetes Architect @ SIGHUP and IBM Champion"],
+        "submission": 43,
+        "email": "michele@sighup.io"
     }, {
         "title": "IBM Cloud Satellite: IBM Cloud Anywhere You Need It",
         "presenter": "Vanessa Wilburn",
         "abstract": "Engineering teams can gain the flexibility to run their applications where it makes sense, for example low latency access to on-prem systems, local data processing, or local data storage. With this offering, you get to focus on app development, not platform differences.",
         "related": ["Cloud Satellite"],
         "twitter": "",
-        "github": "",
+        "github": "wilburnvanessa",
         "photo": "",
-        "description": "",
+        "description": "Today, enterprises face inconsistencies between public cloud and on-premises environments, not just for Operations, but also for Development. Those inconsistencies are compounded by a lack of skills to operate the rapidly evolving platforms. Finally, enterprises have fragmented visibility to applications that run across hybrid architectures. We’ve heard from our clients — they want a simplified and secure path across any location. In this talk, you’ll be introduced to a new offering that addresses the realities of hybrid architectures. This offering brings IBM Cloud services anywhere a client needs them, delivered as-a-service from a single pane of glass and controlled through the public cloud. Our clients can gain the flexibility to run their applications where it makes sense, for example low latency access to on-prem systems, local data processing, or local data storage. With this offering, you get to focus on app development, not platform differences.",
         "topic": "",
-        "bio": []
+        "bio": ["IBM Cloud Satellite Program Director for Offering Management: Five-year veteran in cloud computing. I thrive while leading the forefront of consumption and customer satisfaction. My goal is to make clients successful in their cloud experiences: whether it's in IBM Cloud Satellite, Kubernetes, OpenShift, or other Dev Services."],
+        "submission": 2
     }, {
         "title": "Code Engine - One platform to rule them all",
         "presenter": "Doug Davis",
         "abstract": "With Code Engine you can deploy a wide variety of runtime artifacts: 12-factor and serverless apps, batch jobs and more. All within one easy to use environment, with the most popular runtime options you'd expect, such as self-managed networking with built-in security and auto-scaling, even down to zero. In this session you'll get a quick overview of the product and a demo showcasing just how easy managing your applications is supposed to be.",
         "related": ["knative"],
-        "twitter": "",
-        "github": "",
+        "twitter": "@duginabox",
+        "github": "duglin",
         "photo": "",
         "description": "The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
         "topic": "Modern App Development",
-        "bio": ["James Hewitt is a Senior Architect for the Cloud Pak for Integration and an IBM Master Inventor. James focuses on aligning the Cloud Pak for Integration with Kubernetes and Openshift design and security principles", "Kim is a technical strategist on IBMs integration portfolio working as an architect providing guidance to the offering management team on current trends and challenges. He has spent the last couple of decades working in the field implementing integration and process related solutions. He is one of the primary authors behind much of IBMs agile integration material (http://ibm.biz/agile-integration) and he writes and presents regularly on integration architecture and design topics."]
+        "bio": ["James Hewitt is a Senior Architect for the Cloud Pak for Integration and an IBM Master Inventor. James focuses on aligning the Cloud Pak for Integration with Kubernetes and Openshift design and security principles", "Kim is a technical strategist on IBMs integration portfolio working as an architect providing guidance to the offering management team on current trends and challenges. He has spent the last couple of decades working in the field implementing integration and process related solutions. He is one of the primary authors behind much of IBMs agile integration material (http://ibm.biz/agile-integration) and he writes and presents regularly on integration architecture and design topics."],
+        "submission": 13,
+        "email": ""
     }, {
         "title": "The convergence of application and integration development",
         "presenter": "Kim Clark & James Hewitt",
-        "abstract": "This puts integration at the core of all new applications. In the past, the creation of integrations and applications have been different disciplines. Nowadays, application developers regularly perform integration when defining and exposing their own APIs and events. Integration capabilities are now simply part of application developer's toolkit. The cloud native approach taken by the Cloud Pak for Integration enables capabilities that support and extend microservices applications. We'll discuss how this is resulting in a new generation of powerful integration-enabled applications. ",
+        "abstract": "Nowadays, application developers regularly perform integration when defining and exposing their own APIs and events. Integration capabilities are now simply part of application developer's toolkit. The cloud native approach taken by the Cloud Pak for Integration enables capabilities that support and extend microservices applications, resulting in a new generation of powerful integration-enabled applications. ",
         "related": ["Modern App Development"],
         "twitter": "",
-        "github": "",
+        "github": "kimjclark",
         "photo": "",
         "description": "Today's innovative microservice applications are rarely self contained. They fundamentally depend on the ability to bring disparate data together in new and unique ways. This puts integration at the core of all new applications. In the past, the creation of integrations and applications have been different disciplines. Nowadays, application developers regularly perform integration when defining and exposing their own APIs and events. Integration capabilities are now simply part of application developer's toolkit. The cloud native approach taken by the Cloud Pak for Integration enables capabilities that support and extend microservices applications. We'll discuss how this is resulting in a new generation of powerful integration-enabled applications. ",
         "topic": "",
-        "bio": []
+        "bio": ["Kim is a technical strategist on IBMs integration portfolio working as an architect providing guidance to the offering management team on current trends and challenges. He has spent the last couple of decades working in the field implementing integration and process related solutions. He is one of the primary authors behind much of IBMs agile integration material (http://ibm.biz/agile-integration) and he writes and presents regularly on integration architecture and design topics. https://www.linkedin.com/in/kimjulianclark/"],
+        "submission":54,
+        "email":"kim.clark@uk.ibm.com"
     }, {
         "title": "Build Accessible Applications with the Equal Access Toolkit",
-        "presenter": "Anam Mahmood",
+        "presenter": "Anam Mahmood & Masa Abushamleh",
         "abstract": "Through the Equal Access Toolkit, we would like to raise awareness about making websites and applications more accessible and that accessibility is about inclusion, considering everyone whether people with disabilities, different ages, people using mobile devices, or users with slow network connections. With IBM Equal Access Toolkit we can make our software products accessible by including accessibility directly into our workflow as developers and help improve peoples’ lives.",
         "related": ["Openshift"],
         "twitter": "",
-        "github": "",
+        "github": "Anam-Mahmood",
         "photo": "",
-        "description": "",
+        "description": "I would like to present this session with a colleague of mine, Masa Abushamleh. Through the Equal Access Toolkit launched by IBM, we would like to raise awareness about making websites and applications more accessible and that accessibility is about inclusion, considering everyone whether people with disabilities, different ages, people using mobile devices, or users with slow network connections. With IBM Equal Access Toolkit we can make our software products accessible by including accessibility directly into our workflow as developers and help improve peoples’ lives.",
         "topic": "",
-        "bio": []
+        "bio": ["I am a Cloud Developer Advocate at IBM. I graduated from the American University of Sharjah with a Bachelor’s degree in Computer Science. I have experience in working with Agile Software Development. I have worked on multiple Agile Web Development projects using Python( Django framework), PostgreSQL Database, JavaScript, HTML5/CSS, and API Integration. I am currently focusing on Microservices, Data and AI, such as Watson services, Docker, and Kubernetes. "],
+        "submission":3,
+        "email":""
     }, {
         "title": "Continuous Integration meets Application Integration!",
         "presenter": "Andy Garratt",
         "abstract": "Many CI/CD practices are well known - but how do they apply when 'Integration' itself is the primary deliverable? Come and join our guided tour to show you where the challenges are, how to overcome them with proven good practices and show that it really works in a live demo with APIs, Queues, Mediations, Connectors, Databases and more!",
         "related": [],
-        "twitter": "",
-        "github": "",
+        "twitter": "@amgarratt",
+        "github": "andygblue",
         "photo": "",
-        "description": "",
+        "description": "Many CI/CD practices are well known - but how do they apply when 'Integration' itself is the primary deliverable? Managing the connections to external Applications and Services, linking to applications and services in the same cluster but in different deployments and owned by different people, ensuring that each environment in your deployment connects to the correct environment outside.... these are all fun challenges of integration, especially when you need it automated, versioned in git, and always live to your consumers at all times! Come and join our guided tour to show you where the challenges are, how to overcome them with proven good practices and show that it really works in a live demo with APIs, Queues, Mediations, Connectors, Databases and more!",
         "topic": "",
-        "bio": []
+        "bio": ["Andy Garratt is the Offering Manager Technical Lead for the IBM Cloud Pak for Integration, based in IBM's Hursley Labs in the UK. He has over 20 years' experience architecting, designing and implementing complex Application Integration and Process solutions for customers all over the world."],
+        "submission":45,
+        "email":"andy.garratt@uk.ibm.com"
     }]
 }
