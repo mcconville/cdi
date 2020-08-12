@@ -4,146 +4,265 @@
         "presenter": "Steve Poole",
         "abstract": "This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning.",
         "related": ["kubernetes", "java"],
-        "twitter":"@spoole167",
-        "github":"",
-        "photo":"https://pbs.twimg.com/profile_images/1584838643/StevePoole_400x400.png",
-        "description":"The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
-        "topic":"Modern App Development"
-    },{
+        "twitter": "@spoole167",
+        "github": "",
+        "photo": "",
+        "description": "The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
+        "topic": "Modern App Development",
+        "bio": ["Developer Advocate, DevOps practitioner (whatever that means) Long time IBM Java developer, leader and evangelist. I’ve been working on IBM Java SDKs and JVMs since Java was less than 1. Also had time to work on other things including representing IBM on various JSRs, being a committer on various open source projects including ones at Apache, Eclipse and OpenJDK. Also member of the Adopt OpenJDK group championing community involvement in OpenJDK. A seasoned speaker and regular presenter at JavaOne and other conferences on technical and software engineering topics."],
+        "submission": 17
+    }, {
         "title": "Quarkus - Supersonic Subatomic Java",
         "presenter": "Anamarija Talijanac",
         "abstract": "Dive into the next generation cloud native framework for running Java in microservice oriented cloud platforms.",
         "related": ["OpenShift", "Java", "Serverless"],
-        "twitter":"@spoole167",
-        "github":"",
-        "photo":"https://pbs.twimg.com/profile_images/1584838643/StevePoole_400x400.png",
-        "description":"The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
-        "topic":"Modern App Development"
-    },{
+        "twitter": "",
+        "github": "https://github.com/anamarijas",
+        "photo": "",
+        "description": "Dive into the next generation cloud native framework for running Java in microservice oriented cloud platforms. Quarkus focuses on developers and ease of use in modern serverless environments. It is a Kubernetes Native Java framework tailored for GraalVM and HotSpot, crafted from best-of-breed Java libraries and standards. A hands on overview of the Quarkus cloud native framework, what it brings to the Java ecosystem and what new concepts and design guidelines it introduces. Demo presenting Quarkus with focus on: Developer joy, Memory footprint and performance, Reactive and imperative paradigms, -  Libraries and standards. The attendances should have programming experiences with Java and some knowledge around Enterprise Java runtimes and frameworks.The attendances will get an overview of Enterprise Java challenges in Serverless and Cloud environments and how Quarkus rises up to those challenges. The developer experience that Quarkus provides and various run modes.",
+        "topic": "Runtimes",
+        "bio": ["Anamarija Talijanac is a consultant and application architect at IBM working on design, implementation, system integration and solution modelling of enterprise systems. For the passed 11 years she has been working on a series of projects in Government, Smart Card, Telecommunications and Banking industries. Anamarija is passionate about technology, learning new things and helping others. Programmer, mentor and speaker."],
+        "submission": 12
+    }, {
         "title": "Microservices made easy with MicroProfile, OpenJ9, Open Liberty and OpenShift",
         "presenter": "Jamie Coleman",
         "abstract": "Microservices, microservices, microservices! When you start planning a microservice project there are many more things that need to be considered that simply was not required when creating monoliths. This talk will talk you through a truly open source, cloud-native stack starting at the bottom with OpenShift, then onto the JVM with OpenJ9, Open Liberty as the cloud-native application server then finally MicroProfile as the Java spec for microservices.",
         "related": ["Openshift"],
-        "twitter":"@spoole167",
-        "github":"",
-        "photo":"https://pbs.twimg.com/profile_images/1584838643/StevePoole_400x400.png",
-        "description":"The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
-        "topic":"Modern App Development"
-    },{
+        "twitter": "@Jamie_Lee_C",
+        "github": "jamiecoleman92",
+        "photo": "",
+        "description": "The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
+        "topic": "Modern App Development",
+        "bio": ["Jamie is a software developer and Advocate for Open Liberty, MicroProfile and Kabanero based at IBM’s R&D Laboratory in Hursley, UK. He is a subject matter expert in containerised solutions and takes a keen interest in emerging technologies with experience in Maven, git, Jenkins and microservice architecture. He fell in love with Java at University and has gone on to talk at many conferences about using Java with microservices. He has worked on a wide variety of projects such as modernising CICS mainframe testing infrastructure, creating and automating the creation of Docker images for IBM’s products, contributing to a DevOps pipeline offering and creating web applications for events at the Lab. His recent passion is around raising awareness about energy consumption of technology and discovering ways to help reduce technologies carbon footprint. Twitter handle"],
+        "email": "jlcoleman@uk.ibm.com",
+        "submission": 22
+    }, {
         "title": "Introduction to Kubernetes Operators",
         "presenter": "Jonathan Berkhahn",
         "abstract": "This presentation will cover the internal architecture of an operator, and go over some tools that can be used to quickly stand up an operator.",
         "related": ["Kubernetes", "OperatorHub"],
-        "twitter":"@spoole167",
-        "github":"",
-        "photo":"https://pbs.twimg.com/profile_images/1584838643/StevePoole_400x400.png",
-        "description":"The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
-        "topic":"Modern App Development"
-    },{
+        "twitter": "",
+        "github": "jberkhahn",
+        "photo": "",
+        "description": "Operators are a mechanism to extend the functionality of a Kubernetes cluster by replicating it's internal architecture in user space. They are a versatile tool with many uses, such as adding a Postgres type to your cluster, or as a way to codify behavior of your app running on Kubernetes. This presentation will cover the internal architecture of an operator, and go over some tools that can be used to quickly stand up an operator.",
+        "topic": "Modern App Development",
+        "bio": ["Jonathan is a software engineer who is a full-time contributor to open source cloud software such as Kubernetes. He's a co-chair of the Kubernetes SIG Service Catalog, and an contributor to the Operator-Framework working group."],
+        "submission": 15,
+        "email": ""
+    }, {
         "title": "Turn a Kubernetes deployment into a Knative service",
         "presenter": "Tara Gu",
         "abstract": "By showing how to turn an existing Kubernetes deployment into a Knative service. this presentation shows how much easier it is to create a Knative service versus a Kubernetes deployment. ",
         "related": ["kubernetes", "knative"],
-        "twitter":"@spoole167",
-        "github":"",
-        "photo":"https://pbs.twimg.com/profile_images/1584838643/StevePoole_400x400.png",
-        "description":"The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
-        "topic":"Modern App Development"
+        "twitter": "taraguduke",
+        "github": "taragu",
+        "photo": "",
+        "description": "Knative is a framework runs on Kubernetes that makes it easier to perform common tasks such as scaling up and down, routing traffic, canary deployments, etc. It lets operators twist less knobs and reduce cost of operation. How's the experience of deploying an application on Kubernetes versus Knative? By showing how to turn an existing Kubernetes deployment into a Knative service. this presentation shows how much easier it is to create a Knative service versus a Kubernetes deployment.",
+        "topic": "Modern App Development",
+        "bio": ["Tara is a software engineer at IBM. She started contributing to Kubernetes as a hobbyist in 2018. She has recently joined the IBM Digital Business Group Open Technology division and now contributes to Knative full-time. She is a member of Kubernetes and a reviewer of Knative. She enjoys running and weightlifting in her spare time."]
     }, {
         "title": "Digital Transformation of Legacy Applications",
         "presenter": "Kenishia Callaway",
         "abstract": "As the world marches towards the use of open systems and open source as the models for integration, see how IBM Z can remain in lock step. See a demo on how a Node.js healthcare application created for millennials by millennials is integrating with CICS and Db2 on the mainframe without the need for legacy skills.",
         "related": ["OpenShift", "Z"],
-        "twitter":"@spoole167",
-        "github":"",
-        "photo":"https://pbs.twimg.com/profile_images/1584838643/StevePoole_400x400.png",
-        "description":"The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
-        "topic":"Modern App Development"
+        "twitter": "msbluepeach",
+        "github": "kenishia",
+        "photo": "",
+        "description": "For decades, people have wrestled with the 'legacy systems integration' issue.  As the world marches towards the use of open systems and open source as the models for integration, see how IBM Z can remain in lock step. See a demo on how a Node.js healthcare application created for millennials by millennials is integrating with CICS and Db2 on the mainframe without the need for legacy skills.",
+        "topic": "Modern App Development",
+        "bio": ["Kenishia Callaway is a Client Technical Specialist for IBM Middleware. She has been at IBM for 15 years, beginning her career as a Hardware Specialist and later moving to Software Group. Her focus is in the area of IBM Z Connectivity and API solutions. She works with customers across North America to conduct Proof of Technologies and Proof of Concepts in those areas. She also speaks at customer councils, summits and conferences about the value of Enterprise Integration and the API Economy."],
+        "submission": 36,
+        "email": "kenishia@us.ibm.com"
     }, {
         "title": "Managing Kubernetes with Istio",
         "presenter": "Mofizur Rahman",
         "abstract": "Microservices and containers changed application design and deployment patterns, but along with them brought challenges like service discovery, routing, failure handling, security and visibility to microservices. In this talk we will see how istio can be used to manage traffic, gather metrics and enforce policies in a demo application running microservices. We will learn why kubernetes need “service mesh” and how does Istio improve managing Kubernetes workload.",
         "related": ["Openshift"],
-        "twitter":"@spoole167",
-        "github":"",
-        "photo":"https://pbs.twimg.com/profile_images/1584838643/StevePoole_400x400.png",
-        "description":"The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
-        "topic":"Modern App Development"
+        "twitter": "@spoole167",
+        "github": "",
+        "photo": "",
+        "description": "The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
+        "topic": "Modern App Development",
+        "bio": ["Mofizur Rahman (@moficodes) is a Developer Advocate at IBM. His area of interests include container orchestration and micro services. His favorite programming language these days is Go. He also tinkers with Node, Python and Java. He is also learning and teaching in the Go, Kubernetes, Docker and Microservice community. He is a strong believer of the power of open source and importance of giving back to the community. He is a self proclaimed sticker collecting addict and has collected several box full of stickers with no signs of stopping. He dabbles in photography sometimes."],
+        "submission": 24,
+        "email": "mofizur.rahman@ibm.com"
     }, {
         "title": "Building reactive java applications ready for an event-centric world",
         "presenter": "Grace Jansen",
         "abstract": "In this workshop you'll learn what it means to easily build a cloud-native, asynchronous, reactive application through the Eclipse MicroProfile reactive APIs and Apache Kafka.",
-        "related": ["Java", "Kafka"]
+        "related": ["Java", "Kafka"],
+        "twitter": "@gracejansen27",
+        "github": "https://github.com/GraceJansen",
+        "photo": "",
+        "description": "So, you're a Developer who has heard the phrase 'Reactive' and are excited to see how you can use its guiding principles to make your application more responsive, resilient and elastic. With the advances in hardware, containerization, and virtualization technologies within the past decade, architecture patterns like reactive systems are becoming ever more popular to take advantage of this improving infrastructure. In this mini-workshop, we'll get you hands-on, showing you how to build reactive systems in a simplified manner.",
+        "topic": "",
+        "bio": ["Grace is a Developer Advocate at IBM, working with Open Liberty and Reactive Platform. She has been with IBM since graduating from Exeter University with a Degree in Biology. Grace enjoys bringing a varied perspective to her projects and using her knowledge of biological systems to simplify complex software patterns and architectures. As a developer advocate, Grace builds POC’s, demos and sample applications, and writes guides and tutorials. She is a regular presentor at international technology conferences and has recently authored a book on reactive systems. Grace also has a keen passion for encouraging more women into STEM and especially Technology careers."],
+        "submission": 1,
+        "email": ""
     }, {
         "title": "Modern Web Apps with Rust, Node, and OpenShift",
         "presenter": "Josh Hannaford",
         "abstract": "In this presentation, we will discuss some of the benefits of using Rust to supplement, or even in some cases, replace existing Node applications when performance is a key factor. Some of the key topics include: when to use Rust, how it can supplement existing web applications, and deployment on OpenShift.",
-        "related": ["OpenShift", "node"]
+        "related": ["OpenShift", "node"],
+        "twitter": "",
+        "github": "https://github.ibm.com/Joshua-Hannaford",
+        "photo": "",
+        "description": "In this presentation, we will discuss some of the benefits of using Rust to supplement, or even in some cases, replace existing Node applications when performance is a key factor. Some of the key topics include: when to use Rust, how it can supplement existing web applications, and deployment on OpenShift.",
+        "topic": "Modern Web Development",
+        "bio": ["My name is Josh Hannaford, and ever since I was a young teen I have been enthralled with the art of programming! One of my greatest joys is pairing the right technologies, frameworks, and architectures with great products and ideas. When those all come together, the result is high-impact, value-driven development that creates great team dynamics, and can change customers' lives!"],
+        "submission": 39,
+        "email": "Joshua.Hannaford@ibm.com"
     }, {
         "title": "Transforming an Idea into an Experience with Agile and Design Thinking",
         "presenter": "Sharon Wang & Brittny Laporte",
         "abstract": "What exactly do Design Thinking, Rapid Prototyping, and Agile entail? We'll demystify these concepts, and provide you with a flexible and easy approach so that you can apply them in your own project, to transform an idea into an experience that is valuable to users.",
-        "related": ["openshift", "appid"]
+        "related": ["openshift", "appid"],
+        "twitter": "_sharonwang",
+        "github": "sharon-wang",
+        "photo": "",
+        "description": "Do you have several ideas floating around for a great project that you want to work on, but struggle to organize them? Are you unsure what steps you should take in order to implement a project? Are you wondering how can you leverage design thinking and agile to build that process seamlessly? Often it can be hard to know how to approach building your project from unstructured, unproven ideas. In this session you'll learn the steps to develop a structured and well-defined development plan for your project idea using Design Thinking, Rapid Prototyping, and Agile processes. In a nutshell, Design Thinking can help you organize and prioritize your thoughts, rapid prototyping and UX Design can help you visualize and validate your ideas, and Agile project development can help you implement your solution through iterations. But...what exactly do Design Thinking, Rapid Prototyping, and Agile entail? We'll demystify these concepts, and provide you with a flexible and easy approach so that you can apply them in your own project, to transform an idea into an experience that is valuable to users.",
+        "topic": "Modern App Development",
+        "bio": ["Hello! I'm a Software Developer for the OpenJ9 Virtual Machine team at IBM. I enjoy participating in efforts that make the developer experience more accessible and meaningful. In my spare time you'll find me climbing walls or silks, or scurrying around outdoors. Igor Braga and Brittny Lapierre will also be involved in this presentation!"],
+        "submission": 53,
+        "email": "sharon.wang@ibm.com"
     }, {
         "title": "Build and Deploy a Full Stack Cloud App in 25 Minutes",
         "presenter": "Sharon Wang & Igor Braga",
         "abstract": "Rapid creation of a Java based microservice architecture for a mobile app. Includes some early thinking about privacy by design.",
-        "related": ["openshift", "tekton" ]
+        "related": ["openshift", "tekton"],
+        "twitter": "_sharonwang",
+        "github": "sharon-wang",
+        "photo": "",
+        "description": "Have you been itching to build an app of your own, but seem to shy away from actually building it? 'Full Stack Cloud App' has a nice ring to it, but there's the stigma that building one of your own takes too much time and isn't as simple as throwing a few lines of code down. It's true that apps can get very complex, but why don't we start with the basic skeleton, deploy a simple prototype to the cloud and then work on refining it? Many full stack cloud apps involve developing a frontend and a backend, integrating a data store, connecting various APIs, and ultimately, deploying that app to the cloud. Regardless of the services and frameworks you use, the skeleton of your project will be relatively similar to other cloud apps. By building a skeleton with the core components of a modern cloud app, you'll be able to expand on it to reflect your own design and reuse the skeleton for various projects. What does that cloud app skeleton look like, and what's the process of building it, connecting the different components and deploying your app for people to use? These are the questions we'll be answering during this session. We'll be showing you the process of building a full stack cloud app in 25 minutes, to kickstart that app idea you've been putting on the back-burner.",
+        "topic": "Moder App Development",
+        "bio": ["Hello! I'm a Software Developer for the OpenJ9 Virtual Machine team at IBM. I enjoy participating in efforts that make the developer experience more accessible and meaningful. In my spare time you'll find me climbing walls or silks, or scurrying around outdoors. Igor Braga and Brittny Lapierre will also be involved in this presentation!"],
+        "submission": 49,
+        "email": "sharon.wang@ibm.com"
     }],
     "ops": [{
         "title": "Docker containers for Front-End development runtimes.",
         "presenter": "Dawn Ahukanna",
         "abstract": "Run different langauges for different versions of applications, have this automated and fully scripted, with a web-based dashboard for all your dev environments.",
-        "related": ["Docker", "Node"]
+        "related": ["Docker", "Node"],
+        "twitter": "@dawnahukanna",
+        "github": "https://github.com/dahukanna",
+        "photo": "",
+        "description": "Do you want to simultaneously run Ruby + Jekyll, instances of different versions of NodeJs for different applications, have this automated and fully scripted, with a web-based dashboard for all your development environments, all on your humble Mac? Will also cover brief summary of Docker and Virtualisation, as well how I use it specifically for creating and managing Front-End development environments.",
+        "topic": "Runtimes",
+        "bio": [],
+        "submission": 10,
+        "email":""
     }, {
         "title": "Using Openshift on Different Clouds",
         "presenter": "Max Shapiro",
         "abstract": "Learn how to use and interact with Openshift as a developer. In this session, we will compare and deploy the Bee Travels application to Openshift on IBM Cloud and on other Clouds.",
-        "related": ["OpenShift"]
+        "related": ["OpenShift"],
+        "twitter": "",
+        "github": "https://github.com/MaxShapiro32",
+        "photo": "",
+        "description": "Learn how to use and interact with Openshift as a developer. In this session, we will compare and deploy the Bee Travels application to Openshift on IBM Cloud and on other Clouds.",
+        "topic": "OpenShift & Kubernetes",
+        "bio": ["Max is a software engineer whose strengths lie in cloud based development and in authoring code patterns. He is originally from California and now resides in the New York City greater area. He is a graduate of the University of California, Irvine with a BS in Computer Science. Max began his career in Watson Health where he worked to improve the Watson Platform for Health. He currently develops code patterns for problems that developers face; this includes case study applications and projects on IBM's cloud platform and the services it offers."],
+        "submission": 28,
+        "email": "maxshapiro32@ibm.com"
     }, {
         "title": "Developer experience with Red Hat Marketplace",
         "presenter": "Rojan Jose",
         "abstract": "Red Hat Marketplace is an open cloud marketplace that makes it easier to discover and access certified software for container-based environments in public clouds and on-prem.",
-        "related": ["Red Hat Marketplace"]
+        "related": ["Red Hat Marketplace"],
+        "twitter": "",
+        "github": "",
+        "photo": "",
+        "description": "",
+        "topic": "",
+        "bio": []
     }, {
         "title": "Cloud Native CD Pipelines with Tekton",
         "presenter": "Andrea Frittoli",
         "abstract": "We will present how Tekton pipelines, combined with triggers and cloud events, are used to implement the CD pipelines that build, release and deploy Tekton itself.",
-        "related": ["tekton"]
+        "related": ["tekton"],
+        "twitter": "",
+        "github": "",
+        "photo": "",
+        "description": "",
+        "topic": "",
+        "bio": []
     }, {
         "title": "Extending Kubernetes Scheduler - Everything You Need to Know",
         "presenter": "Huang-Wei",
         "abstract": "This talk will give an intorduction on various ways of extending Kubernetes scheduler, to ensure end-users' diverse workloads can fit on the same platform, so as to achieve high cluster utilization and application high availability.",
-        "related": ["kubernetes"]
+        "related": ["kubernetes"],
+        "twitter": "",
+        "github": "",
+        "photo": "",
+        "description": "",
+        "topic": "",
+        "bio": []
     }, {
         "title": "Lessons learned on running Jenkins in Openshift",
         "presenter": "Michele Buccarello",
         "abstract": "In this talk I will share what I learned about Jenkins in Openshift. The session will end with a summary about the best practice I followed and the problems I faced and how we solved.",
-        "related": ["openshift"]
+        "related": ["openshift"],
+        "twitter": "",
+        "github": "",
+        "photo": "",
+        "description": "",
+        "topic": "",
+        "bio": []
     }, {
         "title": "IBM Cloud Satellite: IBM Cloud Anywhere You Need It",
         "presenter": "Vanessa Wilburn",
         "abstract": "Engineering teams can gain the flexibility to run their applications where it makes sense, for example low latency access to on-prem systems, local data processing, or local data storage. With this offering, you get to focus on app development, not platform differences.",
-        "related": ["Cloud Satellite"]
+        "related": ["Cloud Satellite"],
+        "twitter": "",
+        "github": "",
+        "photo": "",
+        "description": "",
+        "topic": "",
+        "bio": []
     }, {
         "title": "Code Engine - One platform to rule them all",
         "presenter": "Doug Davis",
         "abstract": "With Code Engine you can deploy a wide variety of runtime artifacts: 12-factor and serverless apps, batch jobs and more. All within one easy to use environment, with the most popular runtime options you'd expect, such as self-managed networking with built-in security and auto-scaling, even down to zero. In this session you'll get a quick overview of the product and a demo showcasing just how easy managing your applications is supposed to be.",
-        "related": ["knative"]
+        "related": ["knative"],
+        "twitter": "",
+        "github": "",
+        "photo": "",
+        "description": "The rise of containerized applications, the need to deliver on the promise of polyglot microservice architectures and the growth of Kubernetes as the orchestration system of choice are all contributing to a development model that is quite different from the past and which is greatly increasing the amount of expertise and knowledge a developer needs on a daily basis. This session will help you get a clearer view of the choices coming your way — from new platforms like Knative or Jenkins X through emerging event-based application architectures to new open source development tools designed to help manage the new complexities of being a developer. We’ll explore the principles behind these tools, why they are important and educate you on what you should be learning. Just writing code is here to stay!",
+        "topic": "Modern App Development",
+        "bio": ["James Hewitt is a Senior Architect for the Cloud Pak for Integration and an IBM Master Inventor. James focuses on aligning the Cloud Pak for Integration with Kubernetes and Openshift design and security principles", "Kim is a technical strategist on IBMs integration portfolio working as an architect providing guidance to the offering management team on current trends and challenges. He has spent the last couple of decades working in the field implementing integration and process related solutions. He is one of the primary authors behind much of IBMs agile integration material (http://ibm.biz/agile-integration) and he writes and presents regularly on integration architecture and design topics."]
     }, {
-        "title": "The resurgence of event driven architecture",
-        "presenter": "Kim Clark",
-        "abstract": " It is clear that RESTful APIs are not the only game in town for component interactions, but the interplay between APIs and events is subtle. We’ll explore the most common patterns in use today, their pros and cons, and consider what role events are likely to play in enterprise architecture in the future.",
-        "related": ["Modern App Development"]
+        "title": "The convergence of application and integration development",
+        "presenter": "Kim Clark & James Hewitt",
+        "abstract": "This puts integration at the core of all new applications. In the past, the creation of integrations and applications have been different disciplines. Nowadays, application developers regularly perform integration when defining and exposing their own APIs and events. Integration capabilities are now simply part of application developer's toolkit. The cloud native approach taken by the Cloud Pak for Integration enables capabilities that support and extend microservices applications. We'll discuss how this is resulting in a new generation of powerful integration-enabled applications. ",
+        "related": ["Modern App Development"],
+        "twitter": "",
+        "github": "",
+        "photo": "",
+        "description": "Today's innovative microservice applications are rarely self contained. They fundamentally depend on the ability to bring disparate data together in new and unique ways. This puts integration at the core of all new applications. In the past, the creation of integrations and applications have been different disciplines. Nowadays, application developers regularly perform integration when defining and exposing their own APIs and events. Integration capabilities are now simply part of application developer's toolkit. The cloud native approach taken by the Cloud Pak for Integration enables capabilities that support and extend microservices applications. We'll discuss how this is resulting in a new generation of powerful integration-enabled applications. ",
+        "topic": "",
+        "bio": []
     }, {
         "title": "Build Accessible Applications with the Equal Access Toolkit",
         "presenter": "Anam Mahmood",
         "abstract": "Through the Equal Access Toolkit, we would like to raise awareness about making websites and applications more accessible and that accessibility is about inclusion, considering everyone whether people with disabilities, different ages, people using mobile devices, or users with slow network connections. With IBM Equal Access Toolkit we can make our software products accessible by including accessibility directly into our workflow as developers and help improve peoples’ lives.",
-        "related": ["Openshift"]
+        "related": ["Openshift"],
+        "twitter": "",
+        "github": "",
+        "photo": "",
+        "description": "",
+        "topic": "",
+        "bio": []
     }, {
         "title": "Continuous Integration meets Application Integration!",
         "presenter": "Andy Garratt",
         "abstract": "Many CI/CD practices are well known - but how do they apply when 'Integration' itself is the primary deliverable? Come and join our guided tour to show you where the challenges are, how to overcome them with proven good practices and show that it really works in a live demo with APIs, Queues, Mediations, Connectors, Databases and more!",
-        "related": []
+        "related": [],
+        "twitter": "",
+        "github": "",
+        "photo": "",
+        "description": "",
+        "topic": "",
+        "bio": []
     }]
 }
