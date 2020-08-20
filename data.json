@@ -78,8 +78,8 @@
         "related": ["tekton"]
     }, {
         "title": "Extending Kubernetes Scheduler - Everything You Need to Know",
-        "presenter": "Huang-Wei",
-        "abstract": "This talk will give an intorduction on various ways of extending Kubernetes scheduler, to ensure end-users' diverse workloads can fit on the same platform, so as to achieve high cluster utilization and application high availability.",
+        "presenter": "Wei Huang",
+        "abstract": "This talk will give an introduction on various ways of extending Kubernetes scheduler, to ensure end-users' diverse workloads can fit on the same platform, so as to achieve high cluster utilization and application high availability.",
         "related": ["kubernetes"]
     }, {
         "title": "Lessons learned on running Jenkins in openshift",
